@@ -83,7 +83,7 @@ void SeccionLista::listarSeccion() {
 
 	while (actual != nullptr)
 	{
-		std::cout << "Alumno " << NumeroAlumno << " { " << "nombre: " << actual->getNombre() << " nota: " << actual->getNota() << " } " << std::endl;
+		std::cout << "Alumno " << NumeroAlumno << " { " << "nombre: " << actual->getNombre() << ", nota: " << actual->getNota() << " } " << std::endl;
 		NumeroAlumno++;
 		actual = actual->getSiguiente();
 	}
