@@ -36,5 +36,5 @@ void AlumnoNodo::setNota(float _nota)
 
 float AlumnoNodo::getNota()
 {
-	return 0.0f;
+	return this->nota;
 }
