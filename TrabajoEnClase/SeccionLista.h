@@ -13,5 +13,6 @@ public:
 	bool estaVacia();
 	void agregarAlumno(const char*, float);
 	int cantidadAprobados();
+	void listarSeccion();
 };
 #endif // ALUMNONODO_H
